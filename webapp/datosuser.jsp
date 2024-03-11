@@ -41,9 +41,47 @@
 
             </div>
         </section>
+                   
+                    <!-- boton para eliminar cuenta -->
+                    <div>
+                    <h1>Eliminar mi cuenta</h1>  
                     
-        <div>
-            <a href="salir"> salir</a>      
-        </div>            
+                    <form action="eliminar" method="post">
+                        <button type="submit">eliminar mi cuenta</button>
+                    </form> 
+                    </div>
+      
+            
+        
+               !<!-- seccion para actualizar los datos -->      
+           
+             <h1>Actualiza tus datos</h1>
+             
+             <form action="actualizar" method="post">
+                 <div>
+                 <label for="nn">Ingresa tu nombre</label>
+                 <input type="text" name="nn" required="" id="nn">
+                 </div>
+                 
+                 <div>
+                 <label for="nd">IngresaDireccion</label>
+                 <input type="text" name="nd" required="" id="nd">
+                    </div>
+                 <div>
+                 <label for="ne">Ingresa tu email</label>
+                 <input type="text" name="ne" required="" id="ne">
+                 </div>
+                 
+                 <div>
+                 <label for="np">Ingresa tu contraseña nueva</label>
+                 <input type="text" name="np" required="" id="np">
+                 </div>   
+                 <button type="submit"> Actualizar </button>
+             </form>     
+                 
+               
+                     <div>
+            <a href="salir"> salir</a>   
+        </div>  
     </body>
 </html>
